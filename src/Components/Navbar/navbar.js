@@ -61,9 +61,10 @@ const ResponsiveAppBar = () => {
           >
             Parin Thalangdee
           </Typography>
-
-          {/*NAV LINKS  */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          </Box>
+          {/*NAV LINKS  */}
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -98,7 +99,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
 
           <CodeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
@@ -120,6 +121,8 @@ const ResponsiveAppBar = () => {
             Parin Thalangdee
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          </Box>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -129,7 +132,7 @@ const ResponsiveAppBar = () => {
                 {page}
               </Button>
             ))}
-          </Box>
+          </Box> */}
 
           {/* EMAIL ICON */}
 
@@ -137,6 +140,7 @@ const ResponsiveAppBar = () => {
               <EmailIcon>
               </EmailIcon>
             </a>
+            Parin.Thalangdee@outlook.com
 
             <a href='tel:818-441-3879'>
               <PhoneIphoneIcon>
