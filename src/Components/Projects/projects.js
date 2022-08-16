@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid'
-import Card from '../Card'
+import Card from '../ProjectCard'
 
 
 const Work = () => {
