@@ -136,26 +136,27 @@ const ResponsiveAppBar = () => {
           </Box> */}
 
           {/* EMAIL ICON */}
+            <Box sx={{ flexGrow: 0 }}>
+              <a href='mailto:Parin.Thalangdee@outlook.com'>
+                <EmailIcon sx={{ color:"white"}}>
+                </EmailIcon>
+              </a>
 
-            <a href='mailto:Parin.Thalangdee@outlook.com'>
-              <EmailIcon sx={{ color:"white"}}>
-              </EmailIcon>
+              {/* <a href='tel:818-441-3879'>
+                <PhoneIphoneSharpIcon sx={{ color: "white" }}>>
+                </PhoneIphoneSharpIcon>
+              </a> */}
+
+            <a href='https://www.linkedin.com/in/parinthalangdee/'>
+              <LinkedInIcon sx={{ color: 'white'}}>
+              </LinkedInIcon>
             </a>
 
-            {/* <a href='tel:818-441-3879'>
-              <PhoneIphoneSharpIcon sx={{ color: "white" }}>>
-              </PhoneIphoneSharpIcon>
-            </a> */}
-
-          <a href='https://www.linkedin.com/in/parinthalangdee/'>
-            <LinkedInIcon sx={{ color: 'white'}}>
-            </LinkedInIcon>
-          </a>
-
-          <a href='https://github.com/ParinThalangdee'>
-            <GitHubIcon sx={{ color: 'white'}}>
-            </GitHubIcon>
-          </a>
+            <a href='https://github.com/ParinThalangdee'>
+              <GitHubIcon sx={{ color: 'white'}}>
+              </GitHubIcon>
+            </a>
+          </Box>
 
           {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
