@@ -10,8 +10,8 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import EmailSharpIcon from '@mui/icons-material/EmailSharp'; 
+import PhoneIphoneSharpIcon from '@mui/icons-material/PhoneIphoneSharp'; 
 import { color } from '@mui/system';
 
 const pages = ['About', 'Contact', 'Projects'];
@@ -137,14 +137,14 @@ const ResponsiveAppBar = () => {
           {/* EMAIL ICON */}
 
             <a href='mailto:Parin.Thalangdee@outlook.com'>
-              <EmailIcon sx={{ color:"white"}}>
-              </EmailIcon>
+              <EmailSharpIcon sx={{ color:"white"}}>
+              </EmailSharpIcon>
             </a>
             Parin.Thalangdee@outlook.com
 
             <a href='tel:818-441-3879'>
-              <PhoneIphoneIcon sx={{ color: "white" }}>>
-              </PhoneIphoneIcon>
+              <PhoneIphoneSharpIcon sx={{ color: "white" }}>>
+              </PhoneIphoneSharpIcon>
             </a>
             (818) 441-3879
 
