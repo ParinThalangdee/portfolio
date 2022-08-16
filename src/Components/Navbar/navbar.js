@@ -137,13 +137,13 @@ const ResponsiveAppBar = () => {
           {/* EMAIL ICON */}
 
             <a href='mailto:Parin.Thalangdee@outlook.com'>
-              <EmailIcon>
+              <EmailIcon sx={{ color:"white"}}>
               </EmailIcon>
             </a>
             Parin.Thalangdee@outlook.com
 
             <a href='tel:818-441-3879'>
-              <PhoneIphoneIcon>
+              <PhoneIphoneIcon sx={{ color: "white" }}>>
               </PhoneIphoneIcon>
             </a>
             (818) 441-3879
