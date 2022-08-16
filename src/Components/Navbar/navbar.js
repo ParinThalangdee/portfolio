@@ -10,8 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
-import EmailSharpIcon from '@mui/icons-material/EmailSharp'; 
-import PhoneIphoneSharpIcon from '@mui/icons-material/PhoneIphoneSharp';
+import EmailIcon from '@mui/icons-material/EmailSharp'; 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 // import { color } from '@mui/system';
@@ -139,28 +138,24 @@ const ResponsiveAppBar = () => {
           {/* EMAIL ICON */}
 
             <a href='mailto:Parin.Thalangdee@outlook.com'>
-              <EmailSharpIcon sx={{ color:"white"}}>
-              </EmailSharpIcon>
+              <EmailIcon sx={{ color:"white"}}>
+              </EmailIcon>
             </a>
-            Parin.Thalangdee@outlook.com
 
             {/* <a href='tel:818-441-3879'>
               <PhoneIphoneSharpIcon sx={{ color: "white" }}>>
               </PhoneIphoneSharpIcon>
-            </a>
-            (818) 441-3879 */}
+            </a> */}
 
           <a href='https://www.linkedin.com/in/parinthalangdee/'>
             <LinkedInIcon sx={{ color: 'white'}}>
             </LinkedInIcon>
           </a>
-          LinkedIn
 
           <a href='https://github.com/ParinThalangdee'>
             <GitHubIcon sx={{ color: 'white'}}>
             </GitHubIcon>
           </a>
-          GitHub
 
           {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
