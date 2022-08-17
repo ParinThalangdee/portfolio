@@ -31,4 +31,5 @@ Thank you for your interest in contributing, however, I will not be accepting co
 
 Please contact me using the following links:
   
-- Parin Thalangdee [Github](https://github.com/parinthalangdee)
+- [LinkedIn](https://www.linkedin.com/in/parinthalangdee/)  
+- [Github](https://github.com/parinthalangdee)
