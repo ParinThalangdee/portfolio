@@ -132,7 +132,7 @@ const ResponsiveAppBar = () => {
 
           {/* EMAIL ICON */}
             <Box sx={{ flexGrow: 0 }}>
-              <a href='mailto:Parin.Thalangdee@outlook.com'>
+              <a href='mailto:Parin.Thalangdee@outlook.com' title="Email Me">
                 <EmailIcon sx={{ color:"white"}}>
                 </EmailIcon>
               </a>
@@ -142,17 +142,17 @@ const ResponsiveAppBar = () => {
                 </PhoneIphoneSharpIcon>
               </a> */}
 
-            <a href='https://www.linkedin.com/in/parinthalangdee/' target='_blank'>
+            <a href='https://www.linkedin.com/in/parinthalangdee/' title="LinkedIn Profile" target='_blank'>
               <LinkedInIcon sx={{ color: 'white'}}>
               </LinkedInIcon>
             </a>
 
-            <a href='https://github.com/ParinThalangdee' target='_blank'>
+            <a href='https://github.com/ParinThalangdee' title="Github Account" target='_blank'>
               <GitHubIcon sx={{ color: 'white'}}>
               </GitHubIcon>
             </a>
 
-            <a href='../../Assets/Documents/ParinThalangdee.pdf' download>
+            <a href='../../Assets/Documents/ParinThalangdee.pdf' title="Download Resume" download>
               <AssignmentSharpIcon sx={{ color: 'white' }}>
               </AssignmentSharpIcon>
             </a>
