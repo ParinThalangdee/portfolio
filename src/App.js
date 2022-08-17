@@ -11,7 +11,7 @@ function App() {
     <>
       <CssBaseline />
       <Navbar />
-      <PageLand />
+      {/* <PageLand /> */}
       <About />
       <Tech />
       <Projects />
