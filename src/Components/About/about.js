@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Grid';
-import photo from '../../Assets/Parin1.jpeg'
+import photo from '../../Assets/Misc/Parin1.jpeg'
 import Avatar from '@mui/material/Avatar';
 
 const about = () => {
