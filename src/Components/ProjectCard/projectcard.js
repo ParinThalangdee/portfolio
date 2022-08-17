@@ -36,7 +36,7 @@ const ProjectCard = ({ github, image, title, deployed, tech, description }) => {
       <CardHeader
         action={
           <IconButton aria-label="settings">
-            <MoreVertIcon />
+            {/* <MoreVertIcon /> */}
           </IconButton>
         }
         title={title}
