@@ -15,8 +15,9 @@ const about = () => {
         <Grid item md={1}></Grid>
 
         <Grid item xs={12} md={4}>
-          <h1>Parin Thalangdee</h1>
-          <p>I am currently a student who is studying html, css, and the javascript library to become a front end developer! I enjoy working in teams and love being active in groups. In my spare time, I love racing cars, offroading, and sometimes like to slow down with photography.</p>
+          <h1>Hi, I'm Parin!</h1>
+          <h2>Full Stack Developer</h2>
+          <p>I am a full stack developer. I am currently freelancing so feel free to contact me!</p>
         </Grid>
 
       </Grid>
