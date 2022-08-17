@@ -142,12 +142,12 @@ const ResponsiveAppBar = () => {
                 </PhoneIphoneSharpIcon>
               </a> */}
 
-            <a href='https://www.linkedin.com/in/parinthalangdee/'>
+            <a href='https://www.linkedin.com/in/parinthalangdee/' target='_blank'>
               <LinkedInIcon sx={{ color: 'white'}}>
               </LinkedInIcon>
             </a>
 
-            <a href='https://github.com/ParinThalangdee'>
+            <a href='https://github.com/ParinThalangdee' target='_blank'>
               <GitHubIcon sx={{ color: 'white'}}>
               </GitHubIcon>
             </a>
