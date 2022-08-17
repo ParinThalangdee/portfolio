@@ -1,13 +1,15 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import TechCard from '../TechCard'
-import JavaScript from '../../Assets/javascript.png';
-import HTML5 from '../../Assets/html-5.png';
-import CSS3 from '../../Assets/css.png';
-import ReactJS from '../../Assets/react.png';
-import NodeJS from '../../Assets/nodejs.png';
-import MySQL from '../../Assets/mysql.png';
-import MongoDB from '../../Assets/mongoDB.png';
+// TECH LOGO IMPORTS
+import JavaScript from '../../Assets/Tech/javascript.png';
+import HTML5 from '../../Assets/Tech/html-5.png';
+import CSS3 from '../../Assets/Tech/css.png';
+import ReactJS from '../../Assets/Tech/react.png';
+import NodeJS from '../../Assets/Tech/nodejs.png';
+import MySQL from '../../Assets/Tech/mysql.png';
+import MongoDB from '../../Assets/Tech/mongoDB.png';
+import JQuery from '../../Assets/Tech/jquery.png';
 
 
 const Tech = () => {
@@ -38,6 +40,10 @@ const Tech = () => {
     {
       techtitle: "mongoDB",
       techimage: MongoDB
+    },
+    {
+      techtitle: "JQuery",
+      techimage: JQuery
     }
 ]
 

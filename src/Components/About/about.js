@@ -17,27 +17,6 @@ const about = () => {
         <Grid item xs={12} md={4}>
           <h1>Parin Thalangdee</h1>
           <p>I am currently a student who is studying html, css, and the javascript library to become a front end developer! I enjoy working in teams and love being active in groups. In my spare time, I love racing cars, offroading, and sometimes like to slow down with photography.</p>
-          <ul>
-            <li>JavaScript</li> 
-            <li>SQL</li>
-            <li>HTML5</li>
-            <li>MongoDB</li>
-            <li>CSS3</li>
-          </ul>
-          <ul>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>JQuery</li>
-            <li>MySQL Server</li>
-          </ul>
-          <ul>
-            <li>VS Code</li>
-            <li>Insomnia</li>
-            <li>MongoDB Atlas</li>
-            <li>MongoDB Compass</li>
-            <li>Windows & MacOS</li>
-          </ul>
         </Grid>
 
       </Grid>
