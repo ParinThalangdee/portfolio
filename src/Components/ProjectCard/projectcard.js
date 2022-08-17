@@ -55,12 +55,12 @@ const ProjectCard = ({ github, image, title, deployed, tech, description }) => {
       </CardContent> */}
       <CardActions disableSpacing>
         <IconButton aria-label="Github Repository">
-          <a href={github} target="_blank">
+          <a href={github} title="Repository Link" target="_blank">
             <GitHubIcon />
           </a>
         </IconButton>
         <IconButton aria-label="Deployed Link">
-          <a href={deployed} target="_blank">
+          <a href={deployed} title="Deployed Link" target="_blank">
             <LinkIcon />
           </a>
         </IconButton>
