@@ -10,6 +10,7 @@ const footer = () => {
   return (
     <>
       <Grid container justifyContent="center" padding={3}>
+        <Grid item xs={1}></Grid>
           <Grid item xs={2}>
             <a href='mailto:Parin.Thalangdee@outlook.com' title="Email Me">
               <EmailIcon></EmailIcon>
