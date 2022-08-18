@@ -2,44 +2,44 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
+import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import Menu from '@mui/material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
+import Avatar from '@mui/material/Avatar';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
-import EmailIcon from '@mui/icons-material/EmailSharp'; 
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import AssignmentSharpIcon from '@mui/icons-material/AssignmentSharp';
-// import { color } from '@mui/system';
 
-// const pages = ['About', 'Contact', 'Projects'];
+const pages = ['Home', 'About', 'Projects', 'Contact'];
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {
-  // const [anchorElNav, setAnchorElNav] = React.useState(null);
-  // const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  // const handleOpenNavMenu = (event) => {
-  //   setAnchorElNav(event.currentTarget);
-  // };
-  // const handleOpenUserMenu = (event) => {
-  //   setAnchorElUser(event.currentTarget);
-  // };
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
 
-  // const handleCloseNavMenu = () => {
-  //   setAnchorElNav(null);
-  // };
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
-  // const handleCloseUserMenu = () => {
-  //   setAnchorElUser(null);
-  // };
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
 
   return (
-    <AppBar position="static" sx={{ bgcolor: 'black'}}>
+    <AppBar position="static" sx={{ bgcolor: 'black' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-
           <CodeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          
-          {/* Name */}
           <Typography
             variant="h6"
             noWrap
@@ -57,10 +57,8 @@ const ResponsiveAppBar = () => {
           >
             Parin Thalangdee
           </Typography>
+
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-          </Box>
-          {/*NAV LINKS  */}
-          {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -95,8 +93,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box> */}
-
+          </Box>
           <CodeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
@@ -117,8 +114,6 @@ const ResponsiveAppBar = () => {
             Parin Thalangdee
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-          </Box>
-          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -128,37 +123,9 @@ const ResponsiveAppBar = () => {
                 {page}
               </Button>
             ))}
-          </Box> */}
-
-          {/* EMAIL ICON */}
-            <Box sx={{ flexGrow: 0 }}>
-              <a href='mailto:Parin.Thalangdee@outlook.com' title="Email Me">
-                <EmailIcon sx={{ color:"white"}}>
-                </EmailIcon>
-              </a>
-
-              {/* <a href='tel:818-441-3879'>
-                <PhoneIphoneSharpIcon sx={{ color: "white" }}>>
-                </PhoneIphoneSharpIcon>
-              </a> */}
-
-            <a href='https://www.linkedin.com/in/parinthalangdee/' title="LinkedIn Profile" target='_blank'>
-              <LinkedInIcon sx={{ color: 'white'}}>
-              </LinkedInIcon>
-            </a>
-
-            <a href='https://github.com/ParinThalangdee' title="Github Account" target='_blank'>
-              <GitHubIcon sx={{ color: 'white'}}>
-              </GitHubIcon>
-            </a>
-
-            <a href='../../Assets/Documents/ParinThalangdee.pdf' title="Download Resume" download>
-              <AssignmentSharpIcon sx={{ color: 'white' }}>
-              </AssignmentSharpIcon>
-            </a>
           </Box>
 
-          {/* <Box sx={{ flexGrow: 0 }}>
+          <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -186,10 +153,11 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box> */}
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>
   );
 };
 export default ResponsiveAppBar;
+
