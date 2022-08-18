@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.a37ef140.js",
+    "main.js": "/portfolio/static/js/main.fa1edf36.js",
     "static/media/SendFoodz.png": "/portfolio/static/media/SendFoodz.7d2908f82be16156720b.png",
     "static/media/DinnerForSchmucks.png": "/portfolio/static/media/DinnerForSchmucks.3f81b5a2c83db4643e66.png",
     "static/media/pokestats.png": "/portfolio/static/media/pokestats.e6632ee008031ce46c6b.png",
@@ -17,9 +17,9 @@
     "static/media/css.png": "/portfolio/static/media/css.02d225c7df0b28341d8d.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.38323140666580081f57.png",
     "index.html": "/portfolio/index.html",
-    "main.a37ef140.js.map": "/portfolio/static/js/main.a37ef140.js.map"
+    "main.fa1edf36.js.map": "/portfolio/static/js/main.fa1edf36.js.map"
   },
   "entrypoints": [
-    "static/js/main.a37ef140.js"
+    "static/js/main.fa1edf36.js"
   ]
 }
