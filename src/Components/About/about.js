@@ -11,11 +11,12 @@ import NodeJS from '../../Assets/Tech/nodejs.png';
 import MySQL from '../../Assets/Tech/mysql.png';
 import MongoDB from '../../Assets/Tech/mongoDB.png';
 import JQuery from '../../Assets/Tech/jquery.png';
+import ExpressJS from '../../Assets/Tech/express.png';
 
 const about = () => {
   return (
     <>
-      <Grid container style={{ height: '100vh' }}>
+      <Grid container style={{ height: '100vh' }} spacing={1}>
         {/* FIRST ROW/ FILLER */}
         <Grid item lg={12}></Grid>
 
@@ -41,40 +42,79 @@ const about = () => {
 
         {/* THIRD ROW */}
         <Grid container lg={12}>
-          <Grid item lg={1}></Grid>
-          <Grid item lg={1} sx={{height:'50px', width: '50px'}}>
-            <img src={JavaScript}></img>
-          </Grid>
-          <Grid item lg={1}></Grid>
+          <Grid item lg={3}></Grid>
+          
           <Grid item lg={1}>
-            <img src={HTML5}></img>
+            <Avatar src={JavaScript} sx={{ height:'100px', width: '100px'}}></Avatar>
           </Grid>
-          <Grid item lg={1}></Grid>
+          
           <Grid item lg={1}>
-            <img src={CSS3}></img>
+            <Avatar src={HTML5} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
-          <Grid item lg={1}></Grid>
+          
           <Grid item lg={1}>
-            <img src={ReactJS}></img>
+            <Avatar src={CSS3} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
-          <Grid item lg={1}></Grid>
+          
           <Grid item lg={1}>
-            <img src={NodeJS}></img>
+            <Avatar src={ReactJS} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
-          <Grid item lg={1}></Grid>
+          
           <Grid item lg={1}>
-            <img src={MySQL}></img>
+            <Avatar src={NodeJS} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
-          <Grid item lg={1}></Grid>
+          
+          <Grid item lg={1}>
+            <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={2}></Grid>
+
         </Grid>
 
         {/* FOURTH ROW */}
-        <Grid item lg={12}>
+        {/* <Grid item lg={12}></Grid> */}
+        <Grid container lg={12}>
+          <Grid item lg={3}></Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={HTML5} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={ReactJS} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={2}></Grid>
+
         </Grid>
 
-        {/* <Grid item lg={12}>
-          FIFTH ROW
-        </Grid> */}
+        {/* FIFTH ROW */}
+        {/* <Grid item lg={12}></Grid> */}
 
       </Grid>
     </>
