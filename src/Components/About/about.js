@@ -2,6 +2,15 @@ import React from 'react'
 import Grid from '@mui/material/Grid';
 import Photo from '../../Assets/Misc/Parin1.jpeg';
 import Avatar from '@mui/material/Avatar';
+// TECH LOGO IMPORTS
+import JavaScript from '../../Assets/Tech/javascript.png';
+import HTML5 from '../../Assets/Tech/html-5.png';
+import CSS3 from '../../Assets/Tech/css.png';
+import ReactJS from '../../Assets/Tech/react.png';
+import NodeJS from '../../Assets/Tech/nodejs.png';
+import MySQL from '../../Assets/Tech/mysql.png';
+import MongoDB from '../../Assets/Tech/mongoDB.png';
+import JQuery from '../../Assets/Tech/jquery.png';
 
 const about = () => {
   return (
@@ -9,9 +18,11 @@ const about = () => {
       <Grid container style={{ height: '100vh' }}>
         {/* FIRST ROW/ FILLER */}
         <Grid item lg={12}></Grid>
+
         {/* SECOND ROW */}
         <Grid item lg={3}></Grid>
         <Grid item lg={3}>
+          <h1>Get to know me more</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
           </p>
@@ -27,9 +38,36 @@ const about = () => {
           <Avatar src={Photo} sx={{ height:'400px', width: '400px'}}></Avatar>
         </Grid>
         <Grid item lg={1}></Grid>
+
         {/* THIRD ROW */}
-        <Grid item lg={12}>
+        <Grid container lg={12}>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1} sx={{height:'50px', width: '50px'}}>
+            <img src={JavaScript}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1}>
+            <img src={HTML5}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1}>
+            <img src={CSS3}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1}>
+            <img src={ReactJS}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1}>
+            <img src={NodeJS}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
+          <Grid item lg={1}>
+            <img src={MySQL}></img>
+          </Grid>
+          <Grid item lg={1}></Grid>
         </Grid>
+
         {/* FOURTH ROW */}
         <Grid item lg={12}>
         </Grid>
