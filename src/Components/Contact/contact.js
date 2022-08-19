@@ -1,8 +1,15 @@
 import React from 'react'
+import Grid from '@mui/material/Grid'
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <>
+      <Grid container sx={{ height:'40vh'}}>
+        <Grid item lg={12}>
+          <h1>CONTACT</h1>
+        </Grid>
+      </Grid>    
+    </>
   )
 }
 
