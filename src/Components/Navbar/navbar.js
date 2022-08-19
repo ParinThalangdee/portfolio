@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
 
+import Home from '../PageLand'
+
 const pages = ['Home', 'About', 'Projects', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

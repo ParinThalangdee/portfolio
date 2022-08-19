@@ -65,11 +65,11 @@ const about = () => {
           </Grid>
           
           <Grid item lg={1}>
-            <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
-            <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={2}></Grid>
@@ -90,7 +90,7 @@ const about = () => {
           </Grid>
 
           <Grid item lg={1}>
-            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
@@ -98,7 +98,7 @@ const about = () => {
           </Grid>
 
           <Grid item lg={1}>
-            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
