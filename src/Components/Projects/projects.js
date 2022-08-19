@@ -63,10 +63,10 @@ const Work = () => {
 
   return (
     <>
-      <Grid container justifyContent="center">
+      <Grid container justifyContent="center" >
         <h1>My Work</h1>
       </Grid>
-      <Grid container spacing={4} padding={2} justifyContent="center">
+      <Grid container spacing={4} padding={2} justifyContent="center" sx={{ height: "80vh" }}>
         {projects.map(project =>
           <Grid item>
             <Card title={project.title} github={project.github} image={project.image} tech={project.tech} description={project.description}></Card>
