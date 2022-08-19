@@ -22,8 +22,8 @@ const landing = () => {
         </Grid>
         <Grid item lg={5} justifyContent="center" >
           <h1>Hi, I'm Parin!</h1>
-          <p>I am a full stack developer based in Southern California.</p>
-          <p>Currently, I am freelancing so feel free to contact me!</p>
+          <h3>I am a full stack developer based in Southern California.</h3>
+          <h3>Currently, I am freelancing so feel free to contact me!</h3>
 
           <Grid container lg={12}> {/* ICON CONTAINER */}
             <Grid item lg={1}></Grid>
