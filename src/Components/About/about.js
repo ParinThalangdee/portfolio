@@ -12,6 +12,7 @@ import MySQL from '../../Assets/Tech/mysql.png';
 import MongoDB from '../../Assets/Tech/mongoDB.png';
 import JQuery from '../../Assets/Tech/jquery.png';
 import ExpressJS from '../../Assets/Tech/express.png';
+import OOP from '../../Assets/Tech/OOP.png'
 // AWARD BADGES
 import HTMLBadge from '../../Assets/Awards/UCI-HTMLbadge.png'
 import JSBadge from '../../Assets/Awards/UCI-JS.JQueryBadge.png'
@@ -49,6 +50,10 @@ const about = () => {
         {/* THIRD ROW */}
         <Grid container lg={12}>
           <Grid item lg={3}></Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
           
           <Grid item lg={1}>
             <Avatar src={JavaScript} sx={{ height:'100px', width: '100px'}}></Avatar>
@@ -71,13 +76,9 @@ const about = () => {
           </Grid>
           
           <Grid item lg={1}>
-            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
+            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
           </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
+          
           <Grid item lg={2}></Grid>
 
         </Grid>
@@ -92,7 +93,11 @@ const about = () => {
           </Grid>
 
           <Grid item lg={1}>
-            {/* <Avatar src={HTML5} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
@@ -100,15 +105,11 @@ const about = () => {
           </Grid>
 
           <Grid item lg={1}>
-            {/* <Avatar src={ReactJS} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
-
-          <Grid item lg={1}>
             <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
-            {/* <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+            <Avatar src={OOP} sx={{ height: '100px', width: '100px' }}></Avatar>
           </Grid>
 
           <Grid item lg={1}>
@@ -120,8 +121,8 @@ const about = () => {
         </Grid>
 
         {/* FIFTH ROW */}
-        <Grid container lg={12} spacing={25}>
-          <Grid item lg={1.5}></Grid>
+        <Grid container lg={12} spacing={25.5}>
+          <Grid item lg={1}></Grid>
 
           <Grid item lg={1}>
             {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
