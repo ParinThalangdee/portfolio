@@ -28,7 +28,8 @@ const about = () => {
         <Grid item lg={12}></Grid>
 
         {/* SECOND ROW */}
-        <Grid item lg={3}></Grid>
+        <Grid item lg={2}></Grid>
+
         <Grid item lg={3}>
           <h1>Get to know me more</h1>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
@@ -41,11 +42,29 @@ const about = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
           </p>
         </Grid>
-        <Grid lg={1}></Grid>
-        <Grid item lg={4}>
+        {/* PORTRAIT */}
+        <Grid item lg={3}>
           <Avatar src={Photo} sx={{ height:'400px', width: '400px'}}></Avatar>
         </Grid>
-        <Grid item lg={1}></Grid>
+        {/* UCI BADGES */}
+        <Grid container lg={3}>
+          <Grid item lg={6}>
+            <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+          <Grid item lg={6}>
+            <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+          <Grid item lg={6}>
+            <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+          <Grid item lg={6}>
+            <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+          {/* <Grid item lg={2}>
+            <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid> */}
+
+        </Grid>
 
         {/* THIRD ROW */}
         <Grid container lg={12}>
@@ -121,12 +140,12 @@ const about = () => {
         </Grid>
 
         {/* FIFTH ROW */}
-        <Grid container lg={12} spacing={25.5}>
+        {/* <Grid container lg={12} spacing={25.5}>
           <Grid item lg={1}></Grid>
 
           <Grid item lg={1}>
             {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
+          {/* </Grid>
 
           <Grid item lg={1}>
             <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
@@ -150,11 +169,11 @@ const about = () => {
 
           <Grid item lg={1}>
             {/* <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
+          {/* </Grid>
 
           <Grid item lg={2}></Grid>
 
-        </Grid>
+        </Grid> */}
 
       </Grid>
     </>
