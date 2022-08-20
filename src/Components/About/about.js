@@ -12,6 +12,12 @@ import MySQL from '../../Assets/Tech/mysql.png';
 import MongoDB from '../../Assets/Tech/mongoDB.png';
 import JQuery from '../../Assets/Tech/jquery.png';
 import ExpressJS from '../../Assets/Tech/express.png';
+// AWARD BADGES
+import HTMLBadge from '../../Assets/Awards/UCI-HTMLbadge.png'
+import JSBadge from '../../Assets/Awards/UCI-JS.JQueryBadge.png'
+import NodeExpress from '../../Assets/Awards/UCI-NodeJS.ExpressJS.png'
+import ReactBadge from '../../Assets/Awards/UCI-ReactJSbadge.png'
+import SQLBadge from '../../Assets/Awards/UCI-SQL.NoSQLbadge.png'
 
 const about = () => {
   return (
@@ -114,7 +120,40 @@ const about = () => {
         </Grid>
 
         {/* FIFTH ROW */}
-        {/* <Grid item lg={12}></Grid> */}
+        <Grid container lg={12}>
+          <Grid item lg={2}></Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
+          </Grid>
+
+          <Grid item lg={1}>
+            {/* <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+          </Grid>
+
+          <Grid item lg={2}></Grid>
+
+        </Grid>
 
       </Grid>
     </>
