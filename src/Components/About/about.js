@@ -140,6 +140,7 @@ const about = () => {
         </Grid>
 
         {/* FIFTH ROW */}
+        <Grid item lg={12}></Grid>
         {/* <Grid container lg={12} spacing={25.5}>
           <Grid item lg={1}></Grid>
 
