@@ -120,8 +120,8 @@ const about = () => {
         </Grid>
 
         {/* FIFTH ROW */}
-        <Grid container lg={12}>
-          <Grid item lg={2}></Grid>
+        <Grid container lg={12} spacing={25}>
+          <Grid item lg={1.5}></Grid>
 
           <Grid item lg={1}>
             {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
