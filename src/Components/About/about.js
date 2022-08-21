@@ -28,7 +28,7 @@ const about = () => {
         <Grid item lg={12}></Grid>
 
         {/* SECOND ROW */}
-        <Grid item lg={2}></Grid>
+        <Grid item lg={3}></Grid>
 
         <Grid item lg={3}>
           <h1>Get to know me more</h1>
@@ -42,139 +42,45 @@ const about = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
           </p>
         </Grid>
+
+        <Grid item lg={1}></Grid>
         {/* PORTRAIT */}
         <Grid item lg={3}>
           <Avatar src={Photo} sx={{ height:'400px', width: '400px'}}></Avatar>
         </Grid>
-        {/* UCI BADGES */}
-        <Grid container lg={3}>
-          <Grid item lg={6}>
-            <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-          <Grid item lg={6}>
-            <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-          <Grid item lg={6}>
-            <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-          <Grid item lg={6}>
-            <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-          {/* <Grid item lg={2}>
-            <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid> */}
-
-        </Grid>
 
         {/* THIRD ROW */}
-        <Grid container lg={12}>
+        <Grid container lg={12} spacing={25}>
+          
           <Grid item lg={3}></Grid>
 
           <Grid item lg={1}>
-            {/* <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar> */}
+            <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
-          
+
           <Grid item lg={1}>
-            <Avatar src={JavaScript} sx={{ height:'100px', width: '100px'}}></Avatar>
+            <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
-          
+
           <Grid item lg={1}>
-            <Avatar src={HTML5} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
-          
+
           <Grid item lg={1}>
-            <Avatar src={CSS3} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
-          
+
           <Grid item lg={1}>
-            <Avatar src={ReactJS} sx={{ height: '100px', width: '100px' }}></Avatar>
+            <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
-          
-          <Grid item lg={1}>
-            <Avatar src={NodeJS} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-          
-          <Grid item lg={1}>
-            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
-          
-          <Grid item lg={2}></Grid>
 
         </Grid>
 
         {/* FOURTH ROW */}
-        {/* <Grid item lg={12}></Grid> */}
-        <Grid container lg={12}>
-          <Grid item lg={3}></Grid>
-
-          <Grid item lg={1}>
-            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={ExpressJS} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={MySQL} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={OOP} sx={{ height: '100px', width: '100px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            {/* <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          </Grid>
-
-          <Grid item lg={2}></Grid>
-
-        </Grid>
+        <Grid item lg={12}></Grid>
 
         {/* FIFTH ROW */}
         <Grid item lg={12}></Grid>
-        {/* <Grid container lg={12} spacing={25.5}>
-          <Grid item lg={1}></Grid>
-
-          <Grid item lg={1}>
-            {/* <Avatar src={JQuery} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          {/* </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
-          </Grid>
-
-          <Grid item lg={1}>
-            {/* <Avatar src={MongoDB} sx={{ height: '100px', width: '100px' }}></Avatar> */}
-          {/* </Grid>
-
-          <Grid item lg={2}></Grid>
-
-        </Grid> */}
 
       </Grid>
     </>
