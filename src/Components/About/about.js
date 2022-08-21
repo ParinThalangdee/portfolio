@@ -50,29 +50,39 @@ const about = () => {
         </Grid>
 
         {/* THIRD ROW */}
-        <Grid container lg={12} spacing={25}>
+        <Grid container lg={12}>
           
-          <Grid item lg={3}></Grid>
+          <Grid item lg={2.75}></Grid>
 
           <Grid item lg={1}>
             <Avatar src={HTMLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
 
+          <Grid item lg={.5}></Grid>
+
           <Grid item lg={1}>
             <Avatar src={JSBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
+
+          <Grid item lg={.5}></Grid>
 
           <Grid item lg={1}>
             <Avatar src={NodeExpress} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
 
+          <Grid item lg={.5}></Grid>
+
           <Grid item lg={1}>
             <Avatar src={ReactBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
 
+          <Grid item lg={.5}></Grid>
+
           <Grid item lg={1}>
             <Avatar src={SQLBadge} sx={{ height: '200px', width: '200px' }}></Avatar>
           </Grid>
+
+          <Grid item lg={2}></Grid>
 
         </Grid>
 
