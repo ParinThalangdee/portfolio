@@ -11,11 +11,18 @@ function App() {
     <>
       <CssBaseline />
       <Navbar />
-      <PageLand />
+      {/* <PageLand />
       <About />
       <Projects />
-      {/* <Contact /> */}
-      <Footer />
+      <Contact />
+      <Footer /> */}
+
+      <Routes>
+        <Route path="/" element={<PageLand />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
