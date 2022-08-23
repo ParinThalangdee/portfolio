@@ -12,12 +12,11 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
-// WITHROUTER
-// import { withRouter } from 'react-router-dom'
 
 import Home from '../PageLand'
+import { Link } from 'react-router-dom';
 
-const pages = ['Contact', 'Projects', 'About', 'Home'];
+const pages = ['Projects', 'About', 'Home'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const ResponsiveAppBar = () => {

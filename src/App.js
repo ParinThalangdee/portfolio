@@ -14,7 +14,7 @@ function App() {
       <PageLand />
       <About />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
