@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
 
-import Home from '../PageLand'
+import Home from '../Home'
 import { Link } from 'react-router-dom';
 
 const pages = ['Projects', 'About', 'Home'];
