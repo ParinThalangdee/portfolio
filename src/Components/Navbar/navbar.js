@@ -95,7 +95,7 @@ const ResponsiveAppBar = () => {
                     <Link to={`portfolio/${page}`}>
                       {page}
                     </Link>
-                    }</Typography>
+                    </Typography>
                 </MenuItem>
               ))}
             </Menu>
