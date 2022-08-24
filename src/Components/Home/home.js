@@ -29,17 +29,17 @@ const landing = () => {
             <Grid item lg={1}></Grid>
             <Grid item lg={2}>
               <a href="mailto:Parin.Thalangdee@outlook.com" title="Email Me">
-                <EmailIcon></EmailIcon>
+                <EmailIcon style={{ textDecoration: "none", color: "black" }}></EmailIcon>
               </a>  
             </Grid>
             <Grid item lg={2}>
               <a href="https://www.linkedin.com/in/parinthalangdee/" title="LinkedIn Account" target="_blank">
-                <LinkedInIcon></LinkedInIcon>
+                <LinkedInIcon style={{ textDecoration: "none", color: "black" }}></LinkedInIcon>
               </a>
             </Grid>
             <Grid item lg={2}>
               <a href="https://github.com/ParinThalangdee" title="Github Account" target="_blank">
-                <GitHubIcon></GitHubIcon>
+                <GitHubIcon style={{ textDecoration: "none", color: "black" }}></GitHubIcon>
               </a>
             </Grid>
           </Grid>
