@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
 
-import { wtihRouter } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 
 const pages = ['Projects', 'About', 'Home'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -91,7 +91,11 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">
+                    <Link to={`portfolio/${page}`}>
+                      {page}
+                    </Link>
+                    }</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -123,7 +127,11 @@ const ResponsiveAppBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <Link 
+                style={{ textDecoration: "none", color: "white"}}
+                to={`portfolio/${page}`}>
+                  {page}
+                </Link>
               </Button>
             ))}
           </Box>
