@@ -5,27 +5,32 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Footer from './Components/Footer';
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <>
+    // <>
+    //   <CssBaseline />
+    //   <Navbar />
+    //   <Home />
+    //   <About />
+    //   <Projects />
+    //   <Contact />
+    //   <Footer />
+    // </>
+
+    <Router>
       <CssBaseline />
       <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-
-      {/* <Route>
-        <Router path="/" component={<Home />} />
-        <Router path="/" component={<About />} />
-        <Router path="/" component={<Projects />} />
-        {/* <Router path="/" component={<Contact />} />
-      
-      </Route> */}
-    </>  
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/projects' element={<Projects />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='*' element='' />
+      </Routes>
+    </Router>
   );
 }
 
