@@ -32,14 +32,14 @@ const about = () => {
 
         <Grid item lg={3}>
           <h1>Get to know me more</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
+          <p>
+            I am a full stack developer with a passion for building and optimization. At a young age I have always loved figuring out how things worked and how their process can be streamlined and made more efficient. From tinkering with cars eventually leading to creating with code.
           </p>
           <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
+            After realizing my talent for abstract problem solving and passion for building, I attended the University of California Irvine for their coding camp to persue a career in software development. Coding has become a daily routine as I learn more exciting new methods and technogolies I can add to my toolbox of skills.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus perferendis ipsam sit, architecto reprehenderit amet nulla, ipsum laboriosam quas in quidem nisi, magnam sequi! Quasi ex animi maiores maxime unde!
+            While not coding, I still enjoy working on my car and taking it to the racetrack. Similarly to code, a solid foundation and an endless pursuit of optimization is paramount in racing. 
           </p>
         </Grid>
 
