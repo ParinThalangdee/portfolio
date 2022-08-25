@@ -14,7 +14,7 @@ function App() {
       <CssBaseline />
       <Navbar />
       <Routes>
-        <Route path='portfolio/' element={<Home />} />
+        <Route path='portfolio' element={<Home />} />
         <Route path='portfolio/home' element={<Home />}/>
         <Route path='portfolio/about' element={<About />}/>
         <Route path='portfolio/projects' element={<Projects />}/>
