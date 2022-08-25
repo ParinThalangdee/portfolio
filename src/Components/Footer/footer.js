@@ -12,22 +12,22 @@ const footer = () => {
       <Grid container justifyContent="center" padding={4} sx={{ bgcolor: 'black'}}>
         <Grid item xs={2}></Grid>
           <Grid item xs={2}>
-          <a href='mailto:Parin.Thalangdee@outlook.com' title="Email Me" style={{ textDecoration: "none", color: "white" }}>
+            <a href='mailto:Parin.Thalangdee@outlook.com' title="Email Me" style={{ textDecoration: "none", color: "white" }}>
               <EmailIcon />
             </a>
           </Grid>
           <Grid item xs={2}>
-          <a href='https://www.linkedin.com/in/parinthalangdee/' title="LinkedIn Profile" target='_blank' style={{ textDecoration: "none", color: "white" }}>
+            <a href='https://www.linkedin.com/in/parinthalangdee/' title="LinkedIn Profile" target='_blank' style={{ textDecoration: "none", color: "white" }}>
               <LinkedInIcon />
             </a>
           </Grid>
           <Grid item xs={2}>
-          <a href='https://github.com/ParinThalangdee' title="Github Account" target='_blank' style={{ textDecoration: "none", color: "whjte" }}>
+            <a href='https://github.com/ParinThalangdee' title="Github Account" target='_blank' style={{ textDecoration: "none", color: "white" }}>
               <GitHubIcon />
             </a>
           </Grid>
           <Grid item xs={2}>
-          <a href='../../Assets/Documents/ParinThalangdee.pdf' title="Download Resume" download style={{ textDecoration: "none", color: "white" }}>
+            <a href='../../Assets/Documents/ParinThalangdee.pdf' title="Download Resume" download style={{ textDecoration: "none", color: "white" }}>
               <AssignmentIcon />
             </a>
           </Grid>
