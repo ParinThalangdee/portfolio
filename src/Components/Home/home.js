@@ -12,7 +12,7 @@ import AssignmentSharpIcon from '@mui/icons-material/AssignmentSharp';
 const landing = () => {
   return (
     <>
-      <Grid container style={{ height: '100vh', background: "lightblue"}}>
+      <Grid container style={{ height: '88vh', background: "lightblue"}}>
 
         <Grid item lg={12}></Grid> {/* VERTICAL SPACE */}
 

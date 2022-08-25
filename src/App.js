@@ -21,6 +21,7 @@ function App() {
         <Route path='portfolio/contact' element={<Contact />}/>
         <Route path='*' element='' />
       </Routes>
+      <Footer />
     </Router>
   );
 }
