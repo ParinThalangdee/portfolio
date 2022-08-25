@@ -23,7 +23,7 @@ import SQLBadge from '../../Assets/Awards/UCI-SQL.NoSQLbadge.png'
 const about = () => {
   return (
     <>
-      <Grid container style={{ height: '100vh' }} spacing={1}>
+      <Grid container style={{ height: '88vh' }} spacing={1}>
         {/* FIRST ROW/ FILLER */}
         <Grid item lg={12}></Grid>
 
