@@ -7,16 +7,13 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CodeIcon from '@mui/icons-material/Code';
 
 import {Link} from 'react-router-dom'
 
-const pages = ['Projects', 'About', 'Home'];
-// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Home', 'About', 'Projects', 'Contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -92,7 +89,9 @@ const ResponsiveAppBar = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <Link to={`portfolio/${page}`}>
+                    <Link 
+                      to={`portfolio/${page}`}
+                      style={{ textDecoration: "none", color: "Black" }} >
                       {page}
                     </Link>
                     </Typography>
@@ -116,11 +115,12 @@ const ResponsiveAppBar = () => {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              fontSize: {xs: '1rem', lg: '5rem'}
             }}
           >
             Parin Thalangdee
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, flexDirection: 'row-reverse'}}>
+          <Box sx={{ flexGrow: 1, textAlign: 'right', display: { xs: 'none', md: 'flex'}}}>
             {pages.map((page) => (
               <Button
                 key={page}
