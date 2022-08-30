@@ -43,7 +43,7 @@ const contact = () => {
     <>
       <Grid container justifyContent="center" sx={{ padding: '5vh'}}>
         <Grid item>
-          <h1>Contact</h1>
+          <h1>Contact Me</h1>
         </Grid>
       </Grid>
       <Grid container justifyContent="center" spacing={3} padding={3} sx={{ height: '73vh'}}>
