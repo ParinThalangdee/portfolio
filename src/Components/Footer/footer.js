@@ -26,11 +26,11 @@ const footer = () => {
               <GitHubIcon />
             </a>
           </Grid>
-          <Grid item xs={2}>
-            <a href='../../Assets/Documents/ParinThalangdee.pdf' title="Download Resume" download style={{ textDecoration: "none", color: "white" }}>
+          {/* <Grid item xs={2}>
+            <Link to='../../../public/Parin.Thalangdee.pdf' title="Download Resume" style={{ textDecoration: "none", color: "white" }} download>
               <AssignmentIcon />
-            </a>
-          </Grid>
+            </Link>
+          </Grid> */}
         </Grid>
     </>
   )

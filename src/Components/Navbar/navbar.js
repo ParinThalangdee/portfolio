@@ -13,7 +13,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 import {Link} from 'react-router-dom'
 
-const pages = ['Home', 'About', 'Projects', 'Contact'];
+const pages = ['Home', 'About', 'Projects'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
