@@ -1,5 +1,7 @@
-import { Grid } from '@mui/material'
-import React from 'react'
+import { Grid } from '@mui/material';
+import { Document, Page } from 'react-pdf';
+import ResumePDF from '../../Assets/Documents/Parin.Thalangdee.pdf';
+import React from 'react';
 
 const resume = () => {
   return (
@@ -7,7 +9,9 @@ const resume = () => {
       <Grid container>
         <Grid item lg={3} />
         <Grid item lg={6}>
-          <embed src="../../Assets/Documents/Parin.Thalangdee.pdf" width='800px' height='2100px' />
+          <Document file={ResumePDF}>
+            <Page pageNumber={1} />
+          </Document>
         </Grid>
         <Grid item lg={3} />
       </Grid>        
